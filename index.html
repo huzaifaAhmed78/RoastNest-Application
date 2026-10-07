@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive restaurant and coffee house landing page inspired by the supplied Figma PDF.">
+  <title>RoastNest — Coffee & Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Roast<span>Nest</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a>
+        <a href="#order">Order</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#reservation">Reservation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">HELLO, NEW FRIEND</p>
+        <h1>Reserve Your Table</h1>
+        <p class="hero-copy">A warm table, handcrafted dishes and the kind of coffee worth slowing down for.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#reservation">Book a table</a>
+          <a class="btn btn-outline" href="#menu">Open menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="about">
+      <div class="container story-grid">
+        <article class="story-copy reveal">
+          <p class="eyebrow">ABOUT US</p>
+          <h2>We Invite You to Visit Our <span>Coffee House</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p>
+          <a class="text-btn" href="#contact">Read more <span>→</span></a>
+        </article>
+        <img class="story-image reveal" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=85" alt="Warm restaurant interior">
+        <img class="story-image reverse reveal" src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=85" alt="Chef preparing food">
+        <article class="story-copy reveal">
+          <p class="eyebrow">COFFEE MENU</p>
+          <h2>Quality <span>Kava Beans</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p>
+          <a class="text-btn" href="#menu">Read more <span>→</span></a>
+        </article>
+        <article class="story-copy reveal">
+          <p class="eyebrow">OUR TEAM</p>
+          <h2>Use the Tips & Recipes of <span>Our Barista</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p>
+          <a class="text-btn" href="#contact">Read more <span>→</span></a>
+        </article>
+        <img class="story-image reveal" src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1000&q=85" alt="Professional chef smiling">
+      </div>
+    </section>
+
+    <section class="features section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">FEATURES</p>
+          <h2>Why people choose us?</h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature reveal"><div class="icon">⌂</div><h3>Menu for every taste</h3><p>Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.</p></div>
+          <div class="feature reveal"><div class="icon">✣</div><h3>Always quality beans</h3><p>Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.</p></div>
+          <div class="feature reveal"><div class="icon">♨</div><h3>Experienced barista</h3><p>Felis eget sit sit scelerisque vestibulum. Urna faucibus amet massa lacus lorem.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation section" id="reservation">
+      <div class="reservation-bg"></div>
+      <div class="container reservation-grid">
+        <div class="reveal"><p class="eyebrow">RESERVATION</p><h2>Working Hours</h2><div class="actions"><a class="btn" href="mailto:hello@roastnest.com">Book a table</a><a class="btn btn-outline" href="#contact">Contact us</a></div></div>
+        <div class="hours-card reveal">
+          <div><strong>Sunday to Tuesday</strong><span>09:00 AM — 10:00 PM</span></div>
+          <div><strong>Friday to Saturday</strong><span>09:00 AM — 10:00 PM</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="blog">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">FEATURES</p><h2>Why people choose us?</h2><p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p></div>
+        <div class="review-grid">
+          <article class="review reveal"><span class="quote">“</span><p>Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit.</p><div class="stars">★★★★★</div><strong>John</strong><small>Business Man</small></article>
+          <article class="review reveal"><span class="quote">“</span><p>Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit.</p><div class="stars">★★★★★</div><strong>John</strong><small>Business Man</small></article>
+          <article class="review reveal"><span class="quote">“</span><p>Lorem ipsum dolor sit amet consectetur. Suspendisse aliquet tellus adipiscing condimentum donec blandit.</p><div class="stars">★★★★★</div><strong>John</strong><small>Business Man</small></article>
+        </div>
+        <div class="stats">
+          <div><b>1287+</b><span>Visitors daily</span></div><div><b>578+</b><span>Deliveries monthly</span></div><div><b>1440+</b><span>Positive feedback</span></div><div><b>40+</b><span>Awards and honors</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-banner" id="order">
+      <div class="container order-grid">
+        <div class="reveal"><p class="eyebrow">GOOD CHICKEN. FAST DELIVERY.</p><h2>Simple Way To<br>Order Your Foods</h2><div class="stores"><a href="#menu">▶ Google Play</a><a href="#menu"> Apple Store</a></div></div>
+        <div class="phone-mock reveal"><div class="phone-screen"><span>RoastNest</span><b>Popular</b><div class="food-mini">Jollof Rice<br><small>with Chicken & Plantain</small></div><button>Add to cart · $15</button></div></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">MENU</p><h2>Explore Our Foods</h2><p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p></div>
+        <div class="menu-tabs"><button class="active" data-filter="all">Popular</button><button data-filter="main">Main</button><button data-filter="sides">Sides</button><button data-filter="drinks">Drinks</button></div>
+        <div class="food-grid">
+          <article class="food-card reveal" data-category="main"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85" alt="Rice dish"><div><h3>Jollof Rice with Chicken</h3><small>10–15 Minutes · Serves 1</small><p><strong>$12.50</strong> <del>$13.20</del></p><button class="btn small">Order now</button></div></article>
+          <article class="food-card reveal" data-category="main"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=85" alt="Burgers"><div><h3>Double BBQ Chicken</h3><small>10–15 Minutes · Serves 1</small><p><strong>$12.50</strong> <del>$13.20</del></p><button class="btn small">Order now</button></div></article>
+          <article class="food-card reveal" data-category="sides"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=85" alt="Fresh salad"><div><h3>Garden Harvest Bowl</h3><small>10–15 Minutes · Serves 1</small><p><strong>$12.50</strong> <del>$13.20</del></p><button class="btn small">Order now</button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-overlay"></div>
+      <div class="container newsletter-content reveal">
+        <p class="eyebrow">NEWS LETTER</p><h2>Subscribe Our Newsletter</h2><p>Lorem ipsum dolor sit amet consectetur. Dolor elit vitae nunc varius. Facilisis eget cras sit semper sit enim.</p>
+        <form id="newsletterForm"><input type="email" placeholder="Type here" required><button class="btn" type="submit">Subscribe</button></form><span class="form-note" aria-live="polite"></span>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div><a class="brand" href="#home">Roast<span>Nest</span></a><p>Lorem ipsum dolor sit amet consectetur. Tristique cursus morbi nibh nec et vulputate.</p><div class="socials"><a href="#">f</a><a href="#">◎</a><a href="#">◉</a><a href="#">in</a></div></div>
+      <div><h4>Opening Restaurant</h4><p>Sa–We: 09:00am — 10:00pm</p><p>Thu–We: 09:00am — 10:00pm</p><p>Friday Closed</p></div>
+      <div><h4>User Link</h4><a href="#about">About Us</a><a href="#contact">Contact Us</a><a href="#order">Order Delivery</a><a href="#">Payment & Tax</a><a href="#">Terms of Services</a></div>
+      <div><h4>Contact Us</h4><p>543 Country Club Ave,<br>NC 27587, London, UK</p><p>+1257 6541120</p><form class="footer-form"><input type="email" placeholder="Email" required><button>Subscribe</button></form></div>
+    </div>
+    <div class="copyright">©2024 ARR, All right reserved · Privacy Policy · Terms of Use</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
